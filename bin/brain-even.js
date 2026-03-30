@@ -7,25 +7,22 @@ console.log(`Hello, ${name}!`)
 console.log('Answer "yes" if the number is even, otherwise answer "no".')
 const congrats = (name) => {console.log(`Congratulations, ${name}!`)}
 const gameover = (name) => {console.log(`Let's try again, ${name}!`)}
-const calc = (ans, correct) => {
-	if (ans !== correct) {console.log(`'${ans}' is wrong answer ;(. Correct answer was '${correct}'.`)
-	return(0)
-	} else {console.log('Correct!')
-	return(1)
-	}}
+const isEven = (num) => num%2===0;
 const game = () => {
-	console.log('Question: 15')
-	if(calc(readlineSync.question('Your answer:'), 'no') === 0){
+	for (let i = 0; i<3; i++){
+		let a = Math.floor(Math.random()*100)
+		let correct = ''
+		if (isEven(a)){correct='yes'}
+		else {correct='no'}
+		console.log(`Question: ${a}`)
+		let b = readlineSync.question('Your answer: ')
+		if (b === correct) {console.log('Correct!')}
+		else {console.log(`'${b}' is wrong answer ;(. Correct answer was '${correct}'`)
 		gameover(name)
 		return 0}
-	console.log('Question: 6')
-	if(calc(readlineSync.question('Your answer:'), 'yes') === 0){
-		gameover(name)
-		return 0}
-	console.log('Question: 7')
-	if(calc(readlineSync.question('Your answer:'), 'no') === 0){
-		gameover(name)
-		return 0}
+
+	}
 	congrats(name)
+	return 0
 }
-game();
+game()
