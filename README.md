@@ -10,6 +10,8 @@ https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
 https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
 ## brain-progression asciinema<br>
 https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
+## brain-prime asciinema<br>
+https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
 ## INSTALL
 ```
 make install
