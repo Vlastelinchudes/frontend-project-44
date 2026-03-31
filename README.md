@@ -2,16 +2,11 @@
 [![Actions Status](https://github.com/Vlastelinchudes/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Vlastelinchudes/frontend-project-44/actions)
 ![EsLint](https://shields.io)
 
-## brain-even asciinema<br>
-https://asciinema.org/connect/b1ef2dd4-46c8-49ed-a88e-a5595073233b<br>
-## brain-calc asciinema<br>
-https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
-## brain-gcd asciinema<br>
-https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
-## brain-progression asciinema<br>
-https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
-## brain-prime asciinema<br>
-https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa<br>
+## ![brain-even asciinema](https://asciinema.org/connect/b1ef2dd4-46c8-49ed-a88e-a5595073233b)
+## ![brain-calc asciinema](https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa)
+## ![brain-gcd asciinema](https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa)
+## ![brain-progression asciinema](https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa)
+## ![brain-prime asciinema](https://asciinema.org/connect/5d72593a-8a0c-4746-9400-310366f497fa)
 ## INSTALL
 ```
 make install
@@ -31,4 +26,7 @@ brain-gcd
 ```
 ```
 brain-progression
+```
+```
+brain-prime
 ```
