@@ -22,7 +22,7 @@ const game = () => {
 		if (answer === gcd(s, d)) {console.log('Correct!')}
 		else {
 			console.log(`'${answer}' is wrong answer ;(. Correct answer was '${gcd(s, d)}'`)
-			gameover()
+			gameover(name)
 			return 0
 		}
 	
