@@ -1,10 +1,10 @@
-import { random } from "../index.js";
+import startGay, { random } from "../index.js";
 const desc = "What number is missing in the progression?";
 const progGame = () => {
   let step = Math.floor(Math.random() * 10);
   let prog = [];
   let num = Math.floor(Math.random() * 10);
-  while (prog.length < 5) {
+  while (prog.length < 6) {
     prog.push(num);
     num += step;
   }
