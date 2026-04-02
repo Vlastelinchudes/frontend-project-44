@@ -4,7 +4,7 @@ const progGame = () => {
   let step = Math.floor(Math.random() * 10);
   let prog = [];
   let num = Math.floor(Math.random() * 10);
-  while (prog.length < Math.floor(Math.random() * (10 - 5 + 1)) + 5) {
+  while (prog.length < 5) {
     prog.push(num);
     num += step;
   }
