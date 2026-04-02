@@ -10,7 +10,7 @@ const progGame = () => {
   }
   let missingIndex = random(prog.length);
   let correctAnswer = prog[missingIndex];
-  prog[missingIndex] = "...";
+  prog[missingIndex] = "..";
   let question = "";
   for (let i = 0; i < prog.length; i++) {
     question += prog[i] + " ";
